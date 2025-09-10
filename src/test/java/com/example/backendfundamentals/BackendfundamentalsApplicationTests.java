@@ -1,0 +1,13 @@
+package com.example.backendfundamentals;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BackendfundamentalsApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

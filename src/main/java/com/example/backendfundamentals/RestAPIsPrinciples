@@ -1,0 +1,25 @@
+What is Rest APIs?
+
+Rest APIs(Representation State Transfer APIs) is used to design a networking application.
+It helps in communication of different applications.
+It allows communication between a server and a client using http methods like GET, PUT, DELETE, POST. Rest APIs are stateless,
+ scalable and resource oriented,
+which makes widely used iin development.
+
+5 key principles of Rest APIs are :
+
+1) Stateless :- Each request by the browser contains all the information that is needed to understand and process the request.
+
+2) Client-Server separation :- The client and server both are independent. The client handles all the request and server handles the
+  information.
+
+3) Cacheability :- The responses define themselves as cacheable and non-cacheable which improves performance and scalability.
+
+4) Layered system :- Rest API can be defined in layers where each does not need to know the full architecture. It just interacts with
+  its adjacent layer.
+
+5) REST APIs follow a consistent, standardized way of interacting with resources.
+  Typically achieved through:
+  Resource identification (via URIs)
+  Manipulation through representations (e.g., JSON, XML)
+  Self-descriptive messages (clear HTTP status codes, headers)
