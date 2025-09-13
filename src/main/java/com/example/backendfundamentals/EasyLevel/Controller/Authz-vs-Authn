@@ -1,0 +1,19 @@
+Authentication
+
+What it is: Verifying who the user is.
+
+Purpose: Confirms identity (are you really you?).
+
+How: Usually done via username & password, OTP, biometrics, etc.
+
+Example: Logging into Gmail by entering your email and password.
+
+Authorization
+
+What it is: Determining what the user can do.
+
+Purpose: Decides what resources or actions an authenticated user is allowed to access.
+
+How: Based on roles/permissions (e.g., Admin, User, Guest).
+
+Example: After logging in to Gmail, only you can view your inbox, but you cannot access someone else’s inbox.
