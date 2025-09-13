@@ -1,0 +1,11 @@
+What is the difference between GET, POST, PUT, and DELETE methods in REST?
+
+The four HTTP methods in REST are GET, PUT, POST, DELETE.
+
+1) GET :- Used to retrieve the data from the server. It is read only means, you can only read the data and cannot edit or deltete is.
+
+2) POST :- It is used to create a new resource. It is used to send some data to the server and create a new resource.
+
+3) PUT :- It is used to update a resource. It can be used to edit or add something in the existing resource.
+
+4) Delete :- It is used to delete an existing resource which is no longer useful.
