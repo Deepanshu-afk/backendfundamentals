@@ -1,0 +1,23 @@
+1. @RestController
+
+A specialized controller in Spring.
+
+Combination of:
+
+@Controller (marks class as a Spring MVC controller)
+
+@ResponseBody (tells Spring to return the method result directly in the HTTP response body instead of looking for a view/template).
+
+2. @RequestMapping
+
+A general-purpose mapping annotation.
+
+Can be used at class level and method level.
+
+Defines the URL path and optionally the HTTP method.
+
+3. @GetMapping
+
+A shortcut for @RequestMapping(method = RequestMethod.GET).
+
+Used when you want an endpoint to respond only to HTTP GET requests.
