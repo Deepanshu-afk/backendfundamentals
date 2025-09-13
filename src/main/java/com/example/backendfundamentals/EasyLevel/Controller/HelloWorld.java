@@ -1,4 +1,4 @@
-package com.example.backendfundamentals.Controller;
+package com.example.backendfundamentals.EasyLevel.Controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
