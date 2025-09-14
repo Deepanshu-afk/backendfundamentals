@@ -1,5 +1,10 @@
 package com.example.backendfundamentals.EasyLevel.Controller;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Book {
 
     @Id
@@ -11,10 +16,8 @@ public class Book {
     @Column(nullable = false)
     private String author;
 
-    // Default constructor (required by JPA)
     public Book() {}
 
-    // Constructor with fields
     public Book(Long id, String title, String author) {
         this.id = id;
         this.title = title;
