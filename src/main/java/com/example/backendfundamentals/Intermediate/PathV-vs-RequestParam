@@ -11,3 +11,13 @@ public ResponseEntity<Student> getStudentById(@PathVariable Long id) {
 }
 
 @RequestParam
+
+Used to extract values from query parameters in the URL.
+
+Typical for filters, search, optional values.
+
+Example:
+@GetMapping("/students/search")
+public ResponseEntity<String> searchStudent(@RequestParam String name,@RequestParam(defaultValue = "18") int minAge) {
+    return ResponseEntity.ok("Searching for " + name + " with min age " + minAge);
+}
