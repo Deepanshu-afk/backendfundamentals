@@ -1,0 +1,13 @@
+@PathVariable
+
+Used to extract values from the URI path.
+
+Typical for resource identifiers (e.g., /students/5).
+
+Example:
+@GetMapping("/students/{id}")
+public ResponseEntity<Student> getStudentById(@PathVariable Long id) {
+    return ResponseEntity.ok(new Student(id, "Alice", 22));
+}
+
+@RequestParam
