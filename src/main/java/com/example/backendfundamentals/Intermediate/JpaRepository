@@ -1,0 +1,14 @@
+Repositories in Spring Data JPA
+
+In Spring Data JPA, a repository is a special interface that abstracts data access logic.
+
+Instead of writing boilerplate DAO code (EntityManager, Session, CRUD queries), you just define a repository interface, and Spring generates the implementation at runtime.
+
+Repositories allow you to interact with the database using simple Java methods.
+
+Example:
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student, Long> {
+    List<Student> findByName(String name);
+}
